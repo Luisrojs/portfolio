@@ -9,7 +9,7 @@
 }
 
 body {
-    background: #081b29;
+    background: #000305;
     color:#ededed;
 
 }
@@ -45,7 +45,7 @@ body {
 
 .navbar a:hover,
 .navbar a.active {
-    color:#00abf0 ;
+    color:#70b81f ;
 }
 
 .home {
@@ -69,9 +69,10 @@ body {
 }
 
 .home-content h3 {
+    position: relative;
     font-size: 32px;
     font-weight: 700;
-    color: darkviolet;
+    color: #70b81f;
 }
 
 .home-content p {
@@ -96,11 +97,11 @@ body {
     align-items: center;
     width: 150px;
     height: 100%;
-    background: #00abf0;
-    border: 2px solid #00abf0;
+    background: #70b81f;
+    border: 2px solid #70b81f;
     border-radius: 8px;
     font-size: 19px;
-    color: #081b29;
+    color: #f7f7f7;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
@@ -110,19 +111,21 @@ body {
 }
 
 .btn-box a:hover {
-    color: #00abf0;
+    color: #ffffff;
 }
 
 .btn-box a:nth-child(2) {
     background: transparent;
-    color: #00abf0;
+    color: #ffffff;
 }
 .btn-box a:nth-child(2):hover {
-    color: #081b29;
+    color: #ffffff;
 }
 
 .btn-box a:nth-child(2)::before {
-    background: #00abf0;
+    background:#70b81f;
+
+    ;
 }
 
 .btn-box a::before {
@@ -132,7 +135,7 @@ body {
     left: 0;
     width: 0;
     height:100%;
-    background: #081b29;
+    background: #000000;
     z-index: -1;
     transition: .5s;
 }
@@ -157,10 +160,10 @@ body {
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #00abf0;
+    border: 2px solid #70b81f;
     border-radius: 50%;
     font-size: 20px;
-    color: #00abf0;
+    color: #70b81f;
     text-decoration: none;
     z-index: 1;
     overflow: hidden;
@@ -177,7 +180,7 @@ body {
     left: 0;
     width: 0;
     height: 100%;
-    background: #00abf0;
+    background: #70b81f;
     z-index: -1;
     transition: .5s;
 }
